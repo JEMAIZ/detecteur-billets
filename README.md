@@ -6,6 +6,21 @@
 
 Cette application web interactive permet de détecter les contrefaçons de billets de banque en se basant sur leurs dimensions géométriques. Développée pour l'Organisation Nationale de Lutte contre la Falsification Monétaire (ONCFM), elle utilise des modèles de Machine Learning pour automatiser l'expertise.
 
+📊 Analyse des Données
+L'application se concentre sur 6 dimensions clés :
+
+Diagonal : Longueur de la diagonale (mm).
+
+Height Left : Hauteur gauche (mm).
+
+Height Right : Hauteur droite (mm).
+
+Margin Up : Marge supérieure (mm).
+
+Margin Low : Marge inférieure (mm).
+
+Length : Longueur totale (mm).
+
 ## 🚀 Fonctionnalités
 
 - **Imputation Automatisée** : Gestion des données manquantes (marge inférieure) par régression linéaire.
