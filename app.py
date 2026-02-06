@@ -45,7 +45,11 @@ def main():
     st.title("🛡️ Système Expert de Lutte contre la Contrefaçon")
     st.markdown("Analyse géométrique et détection d'authenticité par Machine Learning.")
 
-    # --- SIDEBAR : CONFIGURATION ---
+    import sklearn
+    # Petit indicateur de version en bas de la sidebar pour le débuggage
+    st.sidebar.caption(f"Version Scikit-Learn locale : {sklearn.__version__}")
+    
+     # --- SIDEBAR : CONFIGURATION ---
     st.sidebar.header("⚙️ Configuration")
     
     model_choice = st.sidebar.selectbox(
@@ -176,4 +180,5 @@ def main():
         st.info("Veuillez charger un fichier CSV pour débuter l'expertise.")
 
 if __name__ == "__main__":
+
     main()
