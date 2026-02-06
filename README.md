@@ -29,3 +29,5 @@ Cette application web interactive permet de détecter les contrefaçons de bille
    ```bash
    git clone [https://github.com/VOTRE_NOM/detecteur-billets.git](https://github.com/VOTRE_NOM/detecteur-billets.git)
    cd detecteur-billets
+2. **Installer les dépendances**  pip install -r requirements.txt
+3. **Lancer l'application** streamlit run app.py
